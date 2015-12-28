@@ -17,7 +17,7 @@
 
     var config = {
         appErrorPrefix: '[HT Error] ', //Configure the exceptionHandler decorator
-        docTitle: 'HotTowel: ',
+        docTitle: 'HotOG: ',
         events: events,
         remoteServiceName: remoteServiceName,
         version: '2.1.0'
@@ -37,5 +37,13 @@
         cfg.config.controllerActivateSuccessEvent = config.events.controllerActivateSuccess;
         cfg.config.spinnerToggleEvent = config.events.spinnerToggle;
     }]);
+    //#endregion
+
+    //#region Configure the bootstrap common services via bsConfig
+    //app.config(['bsDialogConfigProvider', function (cfg) {
+    //    cfg.config = {
+    //        templatePath: '/app/common/bootstrap'
+    //    };
+    //}]);
     //#endregion
 })();

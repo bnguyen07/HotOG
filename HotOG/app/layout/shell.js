@@ -25,7 +25,7 @@
         activate();
 
         function activate() {
-            logSuccess('Hot OG Angular loaded!', null, true);
+            logSuccess('Hot OG loaded!', null, true);
             common.activateController([], controllerId);
         }
 

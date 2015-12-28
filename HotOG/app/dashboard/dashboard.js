@@ -9,8 +9,8 @@
 
         var vm = this;
         vm.news = {
-            title: 'Hot OG Angular',
-            description: 'Hot OG Angular is a SPA template for Angular developers.'
+            title: 'Hot OG',
+            description: 'Hot OG is a SPA template for OG developers.'
         };
         vm.messageCount = 0;
         vm.people = [];
