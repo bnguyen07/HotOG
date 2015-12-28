@@ -18,7 +18,7 @@
 
         function getPeople() {
             var people = [
-                { firstName: 'John', lastName: 'Papa', age: 25, location: 'Florida' },
+                { firstName: 'Brian', lastName: 'Nguyen', age: 25, location: 'Houston, Texas' },
                 { firstName: 'Ward', lastName: 'Bell', age: 31, location: 'California' },
                 { firstName: 'Colleen', lastName: 'Jones', age: 21, location: 'New York' },
                 { firstName: 'Madelyn', lastName: 'Green', age: 18, location: 'North Dakota' },
